@@ -1,0 +1,68 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729420727
+<< pwell >>
+rect 1102 0 2410 740
+rect 0 -1397 2410 0
+<< metal1 >>
+rect 1574 2553 1670 2686
+rect 1716 2656 1796 2687
+rect 1846 2554 1942 2687
+rect 1712 1687 1722 1739
+rect 1790 1687 1800 1739
+rect 916 723 1202 797
+rect 607 99 617 151
+rect 743 99 753 151
+rect 186 -111 260 -107
+rect 1128 -729 1202 723
+rect 1302 629 1394 872
+rect 1302 537 1630 629
+rect 2118 619 2210 872
+rect 2118 537 2224 619
+rect 1538 325 1630 537
+rect 2132 325 2224 537
+rect 1030 -775 1202 -729
+rect 1852 -1397 1910 -1366
+<< via1 >>
+rect 1722 1687 1790 1739
+rect 617 99 743 151
+<< metal2 >>
+rect 975 1739 1790 1749
+rect 975 1687 1722 1739
+rect 975 1677 1790 1687
+rect 617 151 743 161
+rect 617 89 743 99
+rect 643 -108 717 89
+<< metal3 >>
+rect 627 -196 703 -165
+use block1  block1_0 ~/ic_projects/opamp/block1/mag
+timestamp 1729406401
+transform 1 0 228 0 1 89
+box -228 -89 874 2597
+use block2  block2_0 ~/ic_projects/opamp/block2/mag
+timestamp 1729413661
+transform 1 0 264 0 1 -1295
+box -229 -71 917 1265
+use block3  block3_0 ~/ic_projects/opamp/block3/mag
+timestamp 1729411005
+transform 1 0 1155 0 1 793
+box -53 -53 1255 1893
+use block4  block4_0 ~/ic_projects/opamp/block4/mag
+timestamp 1729352936
+transform 1 0 1634 0 1 -1295
+box -246 -71 740 1701
+<< labels >>
+flabel metal1 1756 2673 1756 2673 0 FreeSans 320 0 0 0 VDD
+port 0 nsew
+flabel metal1 1621 2634 1621 2634 0 FreeSans 320 0 0 0 VIN
+port 1 nsew
+flabel metal1 1893 2633 1893 2633 0 FreeSans 320 0 0 0 VIP
+port 2 nsew
+flabel metal3 665 -180 665 -180 0 FreeSans 320 0 0 0 RS
+port 3 nsew
+flabel metal1 1881 -1381 1881 -1381 0 FreeSans 320 0 0 0 GND
+port 4 nsew
+flabel metal1 2166 581 2166 581 0 FreeSans 320 0 0 0 OUT
+port 5 nsew
+<< end >>
